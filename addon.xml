@@ -7,7 +7,8 @@
         <import addon="inputstream.adaptive" minversion="2.6.6" />
         <import addon="script.module.m3u8" version="0.5.4" />
         <import addon="script.module.requests" version="2.27.1" />
-                <!-- <import addon="script.module.web-pdb" /> -->
+        <!-- <import addon="repository.botallen" version="2.0.0"/> -->        
+        <!-- <import addon="script.module.web-pdb" /> -->
     </requires>
     <extension point="xbmc.python.pluginsource" library="addon.py">
         <provides>video</provides>
@@ -22,7 +23,7 @@
         <forum>https://botallen.com/discord</forum>
         <website>https://botallen.com</website>
         <email>kodi@botallen.com</email>
-        <source>https://github.com/tobalan/plugin.video.jiotv</source>
+        <source>https://github.com/guruji2023/TJIO</source>
         <news>
             [- 2.3.7 -]
             [added] fix for runtime error in channel list
